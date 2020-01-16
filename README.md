@@ -1,12 +1,12 @@
-Curso de JavaScript
+Git e Github: Controle e compartilhe seu código
 ===============================================
 
-- Eventos, Formulários e Criando elementos
-- Boas Praticas com javascript
-- Validação de formularios
-- Remoção, Delegação e Animação
-- Filtrando tabela
-- Ajax buscando paciente
+- O que é Git
+- Iniciando os trabalhos
+- Compartilhando o trabalho
+- Trabalho em equipe
+- Manipulando versões
+- Gerando entregas
 
 --------------------
 
