@@ -25,7 +25,14 @@ git checkout master (volta ao ultimo commit)
 git checkout -- . (desfaz a ultima alteração de todos arquivos)
 git revert (muda para oq era antes)
 
-https://devhints.io/git-log
+----------------------
+Criando novo repositório
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/jacksonn455/React.git
+git push -u origin master
 --------------------
 GIT MERGE
 
