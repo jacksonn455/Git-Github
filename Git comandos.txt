@@ -5,8 +5,8 @@ git add . (adiciona tudo do direitorio) staged
 git commit (salva as mudanças do projeto) modified
 VIM ( :wq ) para salvar
 git commit -m "Adicionando mensagem junto" (salva ja com a msg)
-git config -- global.user.name ( Configurando o git)
-git config -- global.user.email ( Configurando o git)
+git config --global user.email "jacksonmagnabosco@hotmail.com"
+git config --global user.name "Jackson Magnabosco"
 git status (ver se precisa commitar algo)
 git log (ver os commits feitos)
 git log -p ( alem de ver os commits da para ver a alteração feita )
