@@ -77,6 +77,57 @@ Permite além reverter arquivos para um estado anterior, reverter um projeto int
 
 			![](https://github.com/CristianAmbrosi/tutoriais/blob/master/images/git-vscode-config.png)
 
+## Comandos
+
+git init (Cria um repositorio no git)
+git init --bare ( repositorio puro ) repositorio remoto
+git add index.html (adiciona um item ao repositorio no git) 
+git add . (adiciona tudo do direitorio) staged
+git commit (salva as mudanças do projeto) modified
+VIM ( :wq ) para salvar
+git commit -m "Adicionando mensagem junto" (salva ja com a msg)
+git config --global user.email "jacksonmagnabosco@hotmail.com"
+git config --global user.name "Jackson Magnabosco"
+git status (ver se precisa commitar algo)
+git log (ver os commits feitos)
+git log -p ( alem de ver os commits da para ver a alteração feita )
+git log --oneline (mostra cada commit em uma unica linha)
+git remote add origin https://github.com/jacksonn455/git.git (adicionando o arquivo git no github)
+git remote (nome do local remoto)
+git remote -v ( os caminhos )
+git push (envia o repositorio para o github) utilizado depois da primeira vez
+git push --set-upstream origin master (comando para baixar) só na primeira vez
+git clone https://github.com/jacksonn455/git.git (http ou ssh)
+git config --global push.default simple (configuração)
+git pull (baixa as atualizações do repositorio)
+git diff HEAD~1 (vai mostrar o que foi feito no ultimo commit)
+git checkout <commit> <file> (checar versão anterior) cola um log do git log 43f0e68746
+git checkout master (volta ao ultimo commit)
+git checkout -- . (desfaz a ultima alteração de todos arquivos)
+git revert (muda para oq era antes)
+
+----------------------
+Criando novo repositório
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/jacksonn455/React.git
+git push -u origin master
+--------------------
+GIT MERGE
+
+git checkout -b branch-novo
+git status
+git add .
+git commit -m"alteração da nova branch"
+git push origin branch-novo
+git checkout master
+git merge branch-novo
+git add .
+git commit -m"alteração da nova branch na master"
+git push -f origin master
+
 5. Para verificar as configurações feitas até o momento:
 
 	> git config --list
