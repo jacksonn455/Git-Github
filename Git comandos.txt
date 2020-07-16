@@ -7,6 +7,8 @@ VIM ( :wq ) para salvar
 git commit -m "Adicionando mensagem junto" (salva ja com a msg)
 git config --global user.email "jacksonmagnabosco@hotmail.com"
 git config --global user.name "Jackson Magnabosco"
+git config user.name (Mostra o nome)
+git config user.email (Mostra e-mail)
 git status (ver se precisa commitar algo)
 git log (ver os commits feitos)
 git log -p ( alem de ver os commits da para ver a alteração feita )
