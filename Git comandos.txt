@@ -48,3 +48,11 @@ git merge branch-novo
 git add .
 git commit -m"alteração da nova branch na master"
 git push -f origin master
+
+-------------------
+Atualizando repositório
+
+git add arquivo.extensão
+git status ( usado para conferir se foi alterado apenas o que é necessario)
+git commit -m"msg"
+git push origin master
