@@ -27,6 +27,11 @@ git checkout master (volta ao ultimo commit)
 git checkout -- . (desfaz a ultima alteração de todos arquivos)
 git revert (muda para oq era antes)
 
+---------------------
+Cancela o git add
+
+git reset <nomeArquivo>
+
 ----------------------
 Criando novo repositório
 
