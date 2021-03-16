@@ -61,3 +61,8 @@ git add arquivo.extensão
 git status ( usado para conferir se foi alterado apenas o que é necessario)
 git commit -m"msg"
 git push origin master
+
+------------------------
+Cria nova Branch
+
+git checkout -b <nomedabranch>
