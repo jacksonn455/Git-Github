@@ -26,6 +26,8 @@ git diff HEAD~1 (vai mostrar o que foi feito no ultimo commit)
 git checkout <commit> <file> (checar versão anterior) cola um log do git log 43f0e68746
 git checkout master (volta ao ultimo commit)
 git checkout -- . (desfaz a ultima alteração de todos arquivos)
+git branch (branches presentes no repositório do seu computado)
+git branch -a (branches que estão no repositório remoto)
 git revert (muda para oq era antes)
 
 ---------------------
